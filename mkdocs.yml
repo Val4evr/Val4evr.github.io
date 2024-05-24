@@ -1,8 +1,9 @@
 site_name: Val's website
 site_description: "Mostly posts about cool projects"
 site_url: "https://Val4evr.github.io/"
-repo_url: "https://github.com/Val4evr/Personal-Website/"
-repo_name: "Val4evr/Personal-Website"
+repo_url: "https://github.com/Val4evr/Val4evr.github.io"
+repo_name: "Val4evr/Val4evr.github.io"
+edit_uri: edit/main/docs/
 
 nav:
   - Home: index.md
