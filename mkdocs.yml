@@ -1,0 +1,111 @@
+site_name: Val's website
+site_description: "Mostly posts about cool projects"
+site_url: "https://Val4evr.github.io/"
+repo_url: "https://github.com/Val4evr/Personal-Website/"
+repo_name: "Val4evr/Personal-Website"
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Posts:
+    - 2024:
+      - posts/testPost1.md
+      - posts/testPost2.md
+      - posts/testPost3.md
+    - 2023:
+      - posts/testPost4.md
+  - Showcase:
+    - Showcase Grid: showcase.md
+    - Projects:
+      - showcase/project1.md
+      - showcase/project2.md
+      - showcase/project3.md
+
+theme:
+  name: material
+  custom_dir: docs/templates
+  icon:
+    logo: material/currency-sign
+  features:
+  - navigation.footer
+  - announce.dismiss
+  - content.action.edit
+  - content.action.view
+  - content.code.annotate
+  - content.code.copy
+  - content.tooltips
+  - navigation.indexes
+  - navigation.sections
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - search.highlight
+  - search.suggest
+  - toc.follow
+
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: light blue
+    accent: teal
+    toggle:
+      icon: material/weather-night
+      name: Switch to dark theme
+
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    accent: lime
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to light theme
+
+extra_css:
+  - css/custom.css
+
+markdown_extensions:
+- admonition
+- attr_list
+- callouts:
+    strip_period: false
+- footnotes
+- md_in_html
+- meta
+- pymdownx.blocks.admonition
+- pymdownx.blocks.html
+- pymdownx.blocks.tab
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- pymdownx.magiclink
+- pymdownx.snippets:
+    check_paths: true
+    base_path: [docs/snippets, "."]
+- pymdownx.highlight
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format
+- pymdownx.tabbed:
+    alternate_style: true
+    slugify: !!python/object/apply:pymdownx.slugs.slugify
+      kwds:
+        case: lower
+- pymdownx.tasklist:
+    custom_checkbox: true
+- toc:
+    permalink: "¤"
+
+
+plugins:
+  - search
+  - markdown-exec
+  #- redirects:
+   # redirect_maps:
+
+extra:
+  social:
+  - icon: fontawesome/brands/github
+    link: https://github.com

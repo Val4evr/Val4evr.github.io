@@ -1,0 +1,14 @@
+mkdocs
+mkdocs-material
+mkdocs-redirects
+markdown-exec
+markdown-callouts
+mdformat
+mdformat-admon
+mdformat-footnote
+mdformat-frontmatter
+mdformat-gfm
+mdformat-mkdocs
+mdformat-ruff
+mdformat-simple-breaks
+mdformat-tables
