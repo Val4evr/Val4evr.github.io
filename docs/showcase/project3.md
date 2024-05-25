@@ -1,3 +1,10 @@
+---
+template: project.html
+hide: 
+  - toc
+  - footer
+---
+
 # project 3
 
 ![project3](../assets/testSVG.svg)

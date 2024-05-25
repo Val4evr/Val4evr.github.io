@@ -1,3 +1,11 @@
+---
+template: project.html
+hide: 
+  - toc
+  - footer
+---
+
+
 # project 2
 
 ![project2](../assets/testPng.png)

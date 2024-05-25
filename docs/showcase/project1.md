@@ -1,3 +1,10 @@
+---
+template: project.html
+hide: 
+  - toc
+  - footer
+---
+
 # project 1
 
 "![project1](../assets/testGif1.gif)"
